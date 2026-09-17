@@ -4,7 +4,6 @@ import calendar
 
 def carregar_dados(nome_arquivo):
 
-#função para carregar os dados do arquivo CSV
     
     dados = []
     try:
@@ -32,7 +31,6 @@ def carregar_dados(nome_arquivo):
 
 def visualizar_intervalo_dados(dados):
     
-    #permite ao usuário visualizar dados de um período específico
 
     print("\n--- [a] Visualização de Dados por Período ---")
     
@@ -125,7 +123,6 @@ def visualizar_intervalo_dados(dados):
 
 def mes_mais_chuvoso(dados):
     
-    #Encontra o mês/ano com a maior precipitação acumulada
    
     print("\n--- [b] Calculando Mês Mais Chuvoso ---")
     precipitacao_por_mes = {} 
@@ -151,7 +148,6 @@ def mes_mais_chuvoso(dados):
 
 def analisar_temperatura_minima(dados):
     
-    #Calcula as médias de temperatura mínima, exibe os dados e o gráfico
 
     try:
         print("\n--- [c, d, e] Análise da Temperatura Mínima (2006-2016) ---")
@@ -198,7 +194,6 @@ def analisar_temperatura_minima(dados):
 
 def gerar_grafico(medias, nome_mes):
     
-    #auxiliar para criar e exibir o gráfico de barras
 
     chaves = list(medias.keys())
     valores = list(medias.values())
@@ -216,7 +211,6 @@ def gerar_grafico(medias, nome_mes):
 
 def main():
 
-    #função principal que controla a execução do programa e o menu
    
     nome_arquivo_csv = 'Anexo_Arquivo_Dados_Projeto_Logica_e_programacao_de_computadores.csv'
     
