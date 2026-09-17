@@ -1,13 +1,13 @@
 Análise Climática de Porto Alegre (1961-2016)
 Projeto desenvolvido no 1º semestre do curso de Análise e Desenvolvimento de Sistemas na PUCRS. O script em Python tem como objetivo processar e analisar um arquivo CSV com o histórico de dados climáticos da cidade de Porto Alegre.
 
--> Funcionalidades:
+Funcionalidades:
 
 Visualização por período: Permite filtrar os dados climáticos especificando o ano e o mês de início e fim.
 Mês mais chuvoso: Analisa a base de dados para identificar o mês e ano com o maior volume acumulado de precipitação.
 Análise de temperaturas: Calcula a média das temperaturas mínimas de um mês específico entre os anos de 2006 e 2016, gerando um gráfico de barras com a biblioteca matplotlib.
 
--> Pré-requisitos e Execução:
+Pré-requisitos e Execução:
 Para rodar o projeto na sua máquina, siga os passos abaixo.
 
 1. Certifique-se de ter o Python instalado.
